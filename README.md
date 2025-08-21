@@ -129,26 +129,6 @@ O menu interativo solicita dados pelo console. Exemplos comuns:
 
 ---
 
-## 🧪 Testes
-
-O módulo de testes não está habilitado no momento. Sugestões:
-- Criar casos de unidade para `AccountRepository` e `InvestmentRepository`
-- Testar regras de negócio (ex.: saldo insuficiente, PIX duplicado, histórico por timestamp)
-- Usar **JUnit Jupiter 5** (declaração já prevista em `libs.versions.toml`)
-
----
-
-## 📦 Roadmap de Melhorias
-
-- Persistência com banco (ex.: H2 + JPA) ou arquivos
-- Validação e formatação de PIX
-- Camada de serviço separada dos repositórios
-- Mais operações no investimento (resgate parcial/total, taxas de IOF/IR simuladas)
-- Testes automatizados e CI (GitHub Actions)
-- Internacionalização (pt-BR / en-US)
-
----
-
 ## 🧑‍💻 Autor
 
 **Robson** — https://github.com/robsonosbor
@@ -157,7 +137,7 @@ O módulo de testes não está habilitado no momento. Sugestões:
 
 ## 📄 Licença
 
-Defina uma licença para o repositório (recomendado: MIT). Exemplo de cabeçalho:
+MIT
 
 ```
 MIT License © 2025 Robson
